@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)),url(img/fondop.jpg);
+    height: 250px;
+    opacity: 89%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header{
+    width: 100%;
+    height: 45vh;   
+    background-size: cover;
+    background-position:center ;
+    /* background-size: 100%;
+    background-repeat:no-repeat ; */
+}
+.nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    transition: all 0.5s ease;
+}
+h1, h2{
+    font-size: 60pt;
+    font-family: 'Lobster', cursive;
+}
+.filtro{
+    text-align: center;
+    padding: 300px 50px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.nav.active{
+    background: #8D694B;
+}
+.nav.active .menu a{
+    color: #fff;
+    
+}
+.nav.active .menu a:hover{
+    padding: 5px 10px;
+    background: #fff;
+    color: #8D694B;
+    border-radius: 15px;
+}
+
+
+.menu{
+    display: flex;
+}
+.menu li{
+    padding-top: 15px;
+    list-style: none;
+    margin: 10px;
+}
+.menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+.menu li a:hover{
+    padding: 5px 10px;
+    background: #8D694B;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.scrol{
+    height: 400px;
+}
+
+.titu{
+    color: #fff;
+}
+
